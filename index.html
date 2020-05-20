@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selec RGB</title>
+
+</head>
+
+<body>
+
+    <form >
+
+        <div class="rgb">
+            <label>(R) Vermelho:</label>
+            <input id="red" type="range" min="0" max="255" value="0">
+            <input id="offRed" type="text" disabled>
+        </div>
+
+        <div class="rgb">
+            <label>(R) Verde:</label>
+            <input id="green" type="range" min="0" max="255" value="0">
+            <input id="offGreen" type="text" disabled>
+        </div>
+
+        <div class="rgb">
+            <label>(R) Azul:</label>
+            <input id="blue" type="range" min="0" max="255" value="0">
+            <input id="offBlue" type="text" disabled>
+        </div>
+
+        <div class="square">
+            <p>Este é o resultado:</p>
+            <span id="squareResult"></span>
+        </div>
+
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
