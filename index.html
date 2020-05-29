@@ -1,44 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selec RGB</title>
-
+    <title>RGB COLOR</title>
 </head>
-
 <body>
+    <h1>RGB SELECTOR</h1>
 
-    <form >
+    <div class="flex-row">
+        <span class="label">(R) Vermelho:</span>
+        <input id="inputRangeRed" class="rangel" value="0" type="range" id="rangerRed" min="0" max="255">
+        <input id="inputTextRed" class="text" value="0" type="number" id="inputRed" min="0" max="255">
+    </div>
 
-        <div class="rgb">
-            <label>(R) Vermelho:</label>
-            <input id="red" type="range" min="0" max="255" value="0">
-            <input id="offRed" type="text" disabled>
-        </div>
+    <div class="flex-row">
+        <span class="label">(G) Green:</span>
+        <input id="inputRangeGreen" class="rangel" value="0" type="range" id="rangerGreen" min="0" max="255">
+        <input id="inputTextGreen" class="text" value="0" type="number" id="inputRed" min="0" max="255">
+    </div>
 
-        <div class="rgb">
-            <label>(R) Verde:</label>
-            <input id="green" type="range" min="0" max="255" value="0">
-            <input id="offGreen" type="text" disabled>
-        </div>
+    <div class="flex-row">
+        <span class="label">(B) Blue:</span>
+        <input id="inputRangeBlue" class="rangel" value="0" type="range" id="rangerBlue" min="0" max="255">
+        <input id="inputTextBlue" class="text" value="0" type="number" id="inputRed" min="0" max="255">
+    </div>
 
-        <div class="rgb">
-            <label>(R) Azul:</label>
-            <input id="blue" type="range" min="0" max="255" value="0">
-            <input id="offBlue" type="text" disabled>
-        </div>
+    <div id="divSquare" class="square"></div>
 
-        <div class="square">
-            <p>Este é o resultado:</p>
-            <span id="squareResult"></span>
-        </div>
-
-    </form>
-
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
-
 </html>
