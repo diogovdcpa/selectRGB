@@ -9,6 +9,7 @@ let inputTextGreen = 0;
 let inputTextBlue = 0;
 
 let divSquare = 0;
+let divSquareText = 0;
 
 let r = '0';
 let g = '0';
@@ -31,6 +32,7 @@ function mapElements() {
     inputTextBlue = document.querySelector('#inputTextBlue');
 
     divSquare = document.querySelector('#divSquare')
+    divSquareText = document.querySelector('#divSquareText')
 
     // escutando o evento change na função handleInputRangeChange
     inputRangeRed.addEventListener('change', handleInputRangeChange)
@@ -67,6 +69,7 @@ function handleInputRangeChange(event) {
 // funçao que desenha os valores rgb na div square
 function syncDiv() {
     divSquare.style.backgroundColor = `rgb(${r} ${g} ${b})`;
+    divSquareText.textContent = `RGB (${r}. ${g}. ${b})`;
 
     inputTextRed.value = r;
     inputTextGreen.value = g;
