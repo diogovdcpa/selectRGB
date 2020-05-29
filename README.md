@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<h2 align="center">
+RGB SELECT
+</h2>
 
-You can use the [editor on GitHub](https://github.com/diogovdcpa/selectRGB/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<p align="center">
+  <a href="LICENSE" >
+<img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
+  </a>
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h3 align="center">  
+  <a href="#information_source-sobre">Sobre</a> |
+  <a href="#interrobang-motivo">Motivo</a> | 
+  <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
+  <a href="#link-como-contribuir">Como Contribuir</a> | 
+  <a href="#licença">Licença</a> 
+</h3>
 
-```markdown
-Syntax highlighted code block
+<img src="" width="1200">
 
-# Header 1
-## Header 2
-### Header 3
+## :information_source: Sobre
 
-- Bulleted
-- List
+Desafio Bootcamp IGTI
 
-1. Numbered
-2. List
+## :interrobang: Motivo
 
-**Bold** and _Italic_ and `Code` text
+proposta para fixar os conteúdos aprendidos em fundamentos de javascript
 
-[Link](url) and ![Image](src)
-```
+## :rocket: Tecnologias Utilizadas
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-### Jekyll Themes
+- html
+- css
+- javascript
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/diogovdcpa/selectRGB/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## :link: Como contribuir
 
-### Support or Contact
+- Faça um Fork do repositório,
+- Faça um clone do respositório
+- Crie uma branch com a sua feature
+- Faça um commit com suas mudanças
+- Push a sua branch
+- Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
